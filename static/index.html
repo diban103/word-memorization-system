@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Memorization</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Word Memorization</h1>
+        <div class="tabs">
+            <button class="tab-button active" data-tab="learn">Learn</button>
+            <button class="tab-button" data-tab="quiz">Quiz</button>
+            <button class="tab-button" data-tab="write">Write</button>
+        </div>
+        <div class="tab-contents">
+            <div id="learn-tab" class="tab-content active">
+                <div class="word-container"></div>
+                <button id="get-words">Get Words</button>
+            </div>
+            <div id="quiz-tab" class="tab-content">
+                <div class="quiz-container"></div>
+            </div>
+            <div id="write-tab" class="tab-content">
+                <div class="write-container"></div>
+            </div>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>
